@@ -1,0 +1,296 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil Courier New;}{\f2\fnil\fcharset0 Courier New;}{\f3\fnil\fcharset255 Courier New;}{\f4\fnil\fcharset255 Terminal;}{\f5\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green77\blue187;\red106\green135\blue89;\red128\green128\blue128;\red178\green0\blue178;\red148\green85\blue141;\red102\green0\blue153;\red255\green255\blue255;}
+{\*\generator Riched20 10.0.17763}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9 # then comment for a comment\par
+def main():\par
+#stuff\par
+main()\par
+x = float(something)   \tab only way to change to a float from an int\par
+def something(variables): \tab function\b\par
+Variables can be: ints, floats, booleans, strings\b0\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sa200\sl276\slmult1 no need to say int or float to initialize a variable(x = 5 is int, x = 2.5 is float)\par
+{\pntext\f5\'B7\tab}bool is capital True or False\par
+{\pntext\f5\'B7\tab}str needs to stay constant either ' ' or " "\par
+{\pntext\f5\'B7\tab}to find variable type ie \b print(type(variable))\b0\par
+{\pntext\f5\'B7\tab}to change a type ie \par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\li1440\sa200\sl276\slmult1\cf1\f1\fs18 y = \cf2 5\line\cf3 print\cf1 (\cf3 type\cf1 (y))\line y = \cf3 float\cf1 (y)\line\cf3 print\cf1 (\cf3 type\cf1 (y))\par
+<class 'int'\f2\lang1033 >\par
+\f1\lang9 <class 'float'>\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\cf0\f0\fs22 Strings:\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sa200\sl276\slmult1 Shows length of string:\par
+
+\pard\sa200\sl276\slmult1\f3\fs18\lang1033\tab len(stringvariable)\f0\fs22\lang9\par
+
+\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sa200\sl276\slmult1\f3\fs18\lang1033 stringvariable[start:end:step]\f4\par
+
+\pard\sa200\sl276\slmult1\f0\fs22\lang9\tab\tab ie: \par
+\f3\fs18\lang1033\tab\tab stringvar="abcd efgh"\par
+\tab\tab stringvar[2] #c\par
+\tab\tab stringvar[2:6] #cd e\par
+\tab\tab stringvar[1:8:2] #bdeg\par
+\tab\tab stringvar[::2] #ac fh (start to stop with a step of 2)\par
+\tab\tab stringvar[::-1] #hgfe dcba (start to stop in reverse or step of -1)\par
+\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\li720\sa200\sl276\slmult1\cf1\f1 x = \cf4\b "This has to work like a charm thanks"\line\cf3 for \cf1\b0 i \cf3\b in \cf1\b0 x.split():\line     \cf3\b if \cf1\b0 i[\cf2 0\cf1 ] == \cf4\b 't'\cf1\b0 :\line         \cf3 print\cf1 (i)\line\par
+\cf5 to\par
+thanks\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\sa200\sl276\slmult1\cf1\par
+
+\pard\sa200\sl276\slmult1\cf0\f2\lang9\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\sa200\sl276\slmult1\cf1\b\f0\fs22\lang1033 Operations, assignments, arithmetic, conditional\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sa200\sl276\slmult1\b0\lang9 Operations:\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\sa200\sl276\slmult1\tab\tab\f1\fs18 x_pos = \cf2 2.5\line\f2\lang1033\tab\tab\cf3\f1\lang9 print\cf1 (x_pos)\par
+\f2\lang1033\tab\tab 2.5\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sa200\sl276\slmult1\f0\fs22 Not operator:\f1\fs18\lang9\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\li360\sa200\sl276\slmult1\f0\fs22\lang1033\tab\tab\f1\fs18 game_over = \cf3\b False\line\f2\tab\tab\cf1\b0\f1 is_game_over = \cf3\b not \cf1\b0 game_over\line\f2\tab\tab\cf3\f1 print\cf1 (is_game_over)\par
+\f2\tab\tab True\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sa200\sl276\slmult1\tab\f0\fs22 arithmetic:\f1\fs18\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li1440\sa200\sl276\slmult1\f0\fs22 +\tab used to add numbers together and concat strings together\f1\fs18\par
+{\pntext\f5\'B7\tab}\f0\fs22 -\tab used to subtract\f1\fs18\par
+{\pntext\f5\'B7\tab}\f0\fs22 *\tab used to multiply\f1\fs18\par
+{\pntext\f5\'B7\tab}\f0\fs22 /\tab used to divide\f1\fs18\par
+{\pntext\f5\'B7\tab}\f0\fs22 %\tab used to find the remainder\f1\fs18\par
+{\pntext\f5\'B7\tab}\f0\fs22 //\tab divides and does not give a remainder back, doesnt get round up\f1\fs18\par
+{\pntext\f5\'B7\tab}\f0\fs22 ** \tab power. 2**3 equals 8\f1\fs18\par
+{\pntext\f5\'B7\tab}\f0\fs22 +=\tab adds itself to itself. Can use *= -= /=\f1\fs18\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sa200\sl276\slmult1\f2 conditionals\f1\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li1440\sa200\sl276\slmult1\f2 > >= < <= != ==\f1\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\sa200\sl276\slmult1\b\f0\fs22 Tuples, arrays/lists, dictionaries\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sa200\sl276\slmult1\b0 Tuple\f1\fs18\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\li1440\sa200\sl276\slmult1 tuple1 = (\cf2 100\cf1 , \cf2 200\cf1 )\line\cf3 print\cf1 (tuple1[\cf2 0\cf1 ], tuple1[\cf2 1\cf1 ])\line\line new_tuple = tuple1 + (\cf2 300\cf1 ,)\line\cf3 print\cf1 (new_tuple)\line\line\cf3 print\cf1 (\cf3 len\cf1 (new_tuple))\line\cf3 print\cf1 (\cf3 min\cf1 (new_tuple))\line\cf3 print\cf1 (\cf3 max\cf1 (new_tuple))\par
+100 200\par
+(100, 200, 300)\par
+3\par
+100\par
+300\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sa200\sl276\slmult1\f0\fs22 Arrays and lists\f1\fs18\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\li1440\sa200\sl276\slmult1 firstlist = [\cf2 2\cf1 , \cf2 5\cf1 , \cf2 6\cf1 , \cf2 11\cf1 , \cf2 3\cf1 , \cf2 7\cf1 , \cf2 1\cf1 ]\line\cf3 print\cf1 (firstlist[\cf2 0\cf1 ])\line\cf3 print\cf1 (firstlist[\cf2 5\cf1 ])\line\line\cf3 print\cf1 (\cf3 len\cf1 (firstlist))\line\cf3 print\cf1 (\cf3 min\cf1 (firstlist))\line\cf3 print\cf1 (\cf3 max\cf1 (firstlist))\line\line firstlist[\cf2 0\cf1 ] = \cf2 7\line\cf3 print\cf1 (firstlist)\line firstlist.append(-\cf2 3\cf1 )\line\cf3 print\cf1 (firstlist)\line firstlist.remove(\cf2 11\cf1 )\line\cf3 print\cf1 (firstlist)\par
+\cf5 2\par
+7\par
+7\par
+1\par
+11\par
+[7, 5, 6, 11, 3, 7, 1]\par
+[7, 5, 6, 11, 3, 7, 1, -3]\par
+[7, 5, 6, 3, 7, 1, -3]\par
+\par
+\cf1 firstlist = [\cf2 2\cf1 , \cf2 5\cf1 , \cf2 6\cf1 , \cf2 11\cf1 , \cf2 3\cf1 , \cf2 7\cf1 , \cf2 1\cf1 ]\line shuffle(firstlist)\line\cf3 print\cf1 (firstlist)\line\par
+\cf5 [3, 2, 7, 6, 5, 11, 1]\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sa200\sl276\slmult1\cf1\f0\fs22 Dictionary\f1\fs18\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\li1440\sa200\sl276\slmult1 firstdictionary = \{\cf4\b 'first'\cf1\b0 : \cf2 0\cf1 , \cf4\b 'second'\cf1\b0 : \cf2 100\cf1 , \cf4\b 'third'\cf1\b0 : \cf2 300\cf1\}\line\cf3 print\cf1 (firstdictionary[\cf4\b 'first'\cf1\b0 ])\line\cf3 print\cf1 (firstdictionary[\cf4\b 'second'\cf1\b0 ])\line\cf3 print\cf1 (firstdictionary.keys())\par
+0\par
+100\par
+dict_keys(['first', 'second', 'third'])\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\sa200\sl276\slmult1\b\f0\fs22 If statements\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\li1080\sa200\sl276\slmult1\b0\f1\fs18 is_game_over = \cf3\b False\line\cf1\b0 playerx_pos = \cf2 0\line\cf1 enemyx_pos = \cf2 2\line\cf1 enemyx_pos2 = \cf2 5\line\line\cf1 playerx_pos += \cf2 2\line\cf3\b if \cf1\b0 playerx_pos == enemyx_pos:\line     is_game_over = \cf3\b True\line     \b0 print\cf1 (\cf4\b "1"\cf1\b0 )\line     \cf3 print\cf1 (playerx_pos)\line     \cf3 print\cf1 (enemyx_pos)\line     \cf3 print\cf1 (enemyx_pos2)\line     \cf3 print\cf1 (is_game_over)\line\line\cf3\b elif \cf1\b0 playerx_pos == enemyx_pos2:\line     is_game_over = \cf3\b True\line     \b0 print\cf1 (\cf4\b "2"\cf1\b0 )\line     \cf3 print\cf1 (playerx_pos)\line     \cf3 print\cf1 (enemyx_pos)\line     \cf3 print\cf1 (enemyx_pos2)\line     \cf3 print\cf1 (is_game_over)\line\line\cf3\b else\cf1\b0 :\line     enemyx_pos += \cf2 1\line     \cf1 enemyx_pos2 += \cf2 1\line     \cf3 print\cf1 (\cf4\b "3"\cf1\b0 )\line     \cf3 print\cf1 (playerx_pos)\line     \cf3 print\cf1 (enemyx_pos)\line     \cf3 print\cf1 (enemyx_pos2)\line     \cf3 print\cf1 (is_game_over)\par
+\par
+\f2\tab 1\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\li1440\sa200\sl276\slmult1 2\par
+2\par
+5\par
+True\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\sa200\sl276\slmult1\b\f0\fs22 While and for loops\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\li1440\sa200\sl276\slmult1\b0\f1\fs18 is_game_over = \cf3\b False\line\cf1\b0 playerx_pos = \cf2 2\line\cf1 enemyx_pos = \cf2 3\line\cf1 end_x_pos = \cf2 10\line\cf3\b while not \cf1\b0 is_game_over:\line     \line     \cf3\b if \cf1\b0 playerx_pos == enemyx_pos:\line         \cf3 print\cf1 (\cf4\b "You lose"\cf1\b0 )\line         is_game_over = \cf3\b True\line     elif \cf1\b0 playerx_pos >= end_x_pos:\line         \cf3 print\cf1 (\cf4\b "You win"\cf1\b0 )\line         is_game_over = \cf3\b True\line     else\cf1\b0 :\line         playerx_pos += \cf2 4\line         \cf1 enemyx_pos += \cf2 1\par
+You win\par
+\par
+\cf1 x_pos = \cf2 5\line\cf1 movements = [\cf2 1\cf1 , -\cf2 2\cf1 , \cf2 6\cf1 , -\cf2 3\cf1 , -\cf2 2\cf1 , \cf2 4\cf1 ]\line\line\cf3\b for \cf1\b0 movement \cf3\b in \cf1\b0 movements:\line     x_pos += movement\line     \cf3 print\cf1 (x_pos)\line\line\cf3 print\cf1 (x_pos)\par
+\cf2 6\par
+4\par
+10\par
+7\par
+5\par
+9\par
+9\par
+\cf3\b for \cf1\b0 x \cf3\b in \b0 range\cf1 (\cf2 0\cf1 , \cf2 3\cf1 ):\line     \cf3 print \cf1 (\cf4\b "We're on time %d" \cf1\b0 % (x))\par
+\cf2 We're on time 0\par
+We're on time 1\par
+We're on time 2\par
+\par
+\cf1 string = \cf4\b "Hello World"\line\cf3 for \cf1\b0 x \cf3\b in \cf1\b0 string:\line     \cf3 print\cf1 (x)\par
+\cf2 H\par
+e\par
+l\par
+l\par
+o\par
+ \par
+W\par
+o\par
+r\par
+l\par
+d\par
+\par
+\cf3\b for \cf1\b0 i \cf3\b in \b0 range\cf1 (\cf2 2\cf1 , \cf2 5\cf1 ):\line     \cf3 print\cf1 (i)\par
+\cf2\par
+2\par
+3\par
+4\par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf0\b\f0\fs22 Printing:\par
+
+\pard\box\brdrdash\brdrw0 \li1440\sa200\sl276\slmult1\b0\f1\fs18 x = \cf6 "woot "\line\cf0 y = \cf6 "bitch"\line\line\cf0 print(x+y\f2 .upper()\f1 )\par
+\cf5\f2 woot BITCH\par
+\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\li1440\sa200\sl276\slmult1\cf3\f1 print\cf1 (\cf4\b 'This is ridiculous \{0\} \{1\}'\cf1\b0 .format(\cf4\b 'ding'\cf1\b0 , \cf4\b 'dong'\cf1\b0 ))\par
+
+\pard\box\brdrdash\brdrw0 \li1440\sa200\sl276\slmult1\cf5 This is ridiculous ding dong\par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\cf0\b\f0\fs22 I/O\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\li720\sa200\sl276\slmult1\cf1\b0\f1\fs18 x = \cf3 open\cf1 (\cf4\b 'test.txt'\cf1\b0 , \cf4\b 'w'\cf1\b0 )\f2  #makes new file and makes it writable\f1\line x.write(\cf4\b 'Boom it worked!!!'\cf1\b0 )\f2  #writes to file, will return character \tab\tab\tab\tab\tab\tab number input into file\f1\line x.close()\f2\tab #closes\par
+\par
+\f1 x = \cf3 input\cf1 (\cf4\b "Number? "\cf1\b0 )\f2  #asks user for something and saves it as variable\par
+\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\sa200\sl276\slmult1\b\f0\fs22 Methods and Functions\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\li720\sa200\sl276\slmult1\b0\f1\fs18 mylist = [\cf2 2\cf1 , \cf2 3\cf1 , \cf2 5\cf1 , \cf2 0\cf1 ]\line\cf3 help\cf1 (mylist.insert)\f2  #help prints how you can use it\par
+\par
+\cf3\b\f1 def \cf1\b0 hello(name):\line     \cf3 print\cf1 (\cf4\b "Hello "\cf1\b0 , name)\line\line\cf3\b def \cf1\b0 main():\line     name = \cf3 input\cf1 (\cf4\b "Whats your name?"\cf1\b0 )\line     hello(name)\line\line main()\par
+\par
+\cf5\f2 Whats your name?Michael\par
+Hello  Michael\par
+\par
+\cf3\b\f1 def \cf1\b0 pig_latin(word):\line     \cf3\b if \cf1\b0 word[\cf2 0\cf1 ] == \cf4\b 'a' \cf3 or \cf1\b0 word[\cf2 0\cf1 ] == \cf4\b 'e' \cf3 or \cf1\b0 word[\cf2 0\cf1 ] == \cf4\b 'i'\cf3 or \cf1\b0 word[\cf2 0\cf1 ] == \cf4\b 'o' \cf3 or \cf1\b0 word[\cf2 0\cf1 ] == \cf4\b 'u'\cf1\b0 :\line         \cf3\b return \cf1\b0 word+\cf4\b 'ay'\line\line     \cf3 else\cf1\b0 :\line         first_letter = word[\cf2 0\cf1 ]\line         word = word[\cf2 1\cf1 :]\line         \cf3\b return \cf1\b0 word+first_letter+\cf4\b 'ay'\line\line\cf3 def \cf1\b0 main():\line   word = \cf3 input\cf1 (\cf4\b "Whats the word to translate? "\cf1\b0 )\line   pigword = pig_latin(word)\line   \cf3 print\cf1 (\cf4\b "The pig latin equivelant is: "\cf1\b0 , pigword)\line\line main()\par
+\cf5\f2 Whats the word to translate? word\par
+The pig latin equivelant is:  ordway\par
+\par
+Whats the word to translate? apple\par
+The pig latin equivelant is:  appleay\par
+\cf1\f1\par
+\cf3\b def \cf1\b0 pass_args(*args):\f2  #many arguments\f1\line     \cf3 print\cf1 (\cf3 sum\cf1 (args))\line\line\cf3\b def \cf1\b0 main():\line\line     pass_args(\cf2 10\cf1 , \cf2 10\cf1 , \cf2 20\cf1 , \cf2 30\cf1 )\line\line main()\par
+
+\pard\box\brdrdash\brdrw0 \li720\sa200\sl276\slmult1\cf5\f2 70\par
+\par
+\cf0\f0\fs22 Maps/Lists\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\li720\sa200\sl276\slmult1\cf3\b\f1\fs18 def \cf1\b0 square(num):\line     \cf3\b return \cf1\b0 num**\cf2 3\line\line\cf3\b def \cf1\b0 main():\line     my_nums = [\cf2 1\cf1 ,\cf2 2\cf1 ,\cf2 3\cf1 ,\cf2 4\cf1 ,\cf2 5\cf1 ]\line     \cf3 print\cf1 (\cf3 list\cf1 (\cf3 map\cf1 (square, my_nums)))\f2  #passing my_nums to function but not \tab\tab\tab\tab\tab\tab\tab executing them, map executes them\f1\line\line     \cf3\b for \cf1\b0 nums \cf3\b in \b0 map\cf1 (square, my_nums):\f2   #same as top in different context\f1\line         \cf3 print\cf1 (nums)\line\line main()\par
+\cf5 [1, 8, 27, 64, 125]\par
+1\par
+8\par
+27\par
+64\par
+125\fs9\par
+\cf3\b\fs18 def \cf1\b0 oddLength(string):\line     \cf3\b if \b0 len\cf1 (string)%\cf2 2 \cf1 != \cf2 0\cf1 :\line         \cf3\b return True\line     else\cf1\b0 :\line         \cf3\b return False\line\line def \cf1\b0 splicer(mystring):\line     \cf3\b if \b0 len\cf1 (mystring) > \cf2 3\cf1 :\line         \cf3\b return \cf4 'Wow'\line     \cf3 else\cf1\b0 :\line         \cf3\b return \cf1\b0 mystring[::-\cf2 1\cf1 ]\line\line\cf3\b def \cf1\b0 main():\line     go = \cf4\b 'y'\line     \cf1\b0 userList = []\line     \cf3\b while \cf1\b0 go == \cf4\b 'y'\cf1\b0 :\line         ans = \cf3 input\cf1 (\cf4\b "Give me a string: "\cf1\b0 )\line         TF = oddLength(ans)\line         \cf3\b if \cf1\b0 TF == \cf3\b True\cf1\b0 :\line             userList.append(ans)\line         \cf3\b else\cf1\b0 :\line             \cf3 print\cf1 (\cf4\b "It's even!!!"\cf1\b0 )\line\line         go = \cf3 input\cf1 (\cf4\b "Another string input (y or n): "\cf1\b0 )\line\line     \cf3 print\cf1 (\cf3 list\cf1 (\cf3 map\cf1 (splicer, userList)))\line\line main()\par
+\cf5 Give me a string: Zoom\par
+It's even!!!\par
+Another string input (y or n): y\par
+Give me a string: get\par
+Another string input (y or n): y\par
+Give me a string: whats\par
+Another string input (y or n): y\par
+Give me a string: happens\par
+Another string input (y or n): n\par
+['teg', 'Wow', 'Wow']\par
+\par
+\cf0\b\f0\fs22 OPP:\par
+\cf3\f1\fs18 class \cf1\b0 Dog():\line\line\cf7\i #Constructor\line     \cf3\b\i0 def \cf8\b0 __init__\cf1 (\cf9 self\cf1 , breed, name, spots, length):\line         \cf7\i #string\line         \cf9\i0 self\cf1 .breed = breed\line         \cf9 self\cf1 .name = name\line         \cf7\i #bool\line         \cf9\i0 self\cf1 .spots = spots\line         \cf7\i #int\line         \cf9\i0 self\cf1 .length = length\line\line\cf7\i #Functions\line     \cf3\b\i0 def \cf1\b0 bark(\cf9 self\cf1 ):\line         \cf3 print\cf1 (\cf4\b 'There is a'\cf1\b0 , \cf9 self\cf1 .breed, \cf4\b 'named'\cf1\b0 , \cf9 self\cf1 .name, \cf4\b 'that goes Woof!'\cf1\b0 )\line\line     \cf3\b def \cf1\b0 spot(\cf9 self\cf1 ):\line         \cf3\b if \cf9\b0 self\cf1 .spots == \cf3\b False\cf1\b0 :\line             \cf3 print\cf1 (\cf4\b 'Oh and there is no spots'\cf1\b0 )\line         \cf3\b else\cf1\b0 :\line             \cf3 print\cf1 (\cf4\b 'There are spots'\cf1\b0 )\line\line     \cf3\b def \cf8\b0 __str__\cf1 (\cf9 self\cf1 ):\line         \cf7\i #returns a string\line         \cf3\b\i0 return \cf4 f"\{self.breed\}, \{self.name\}"\line\line     \cf3 def \cf8\b0 __len__\cf1 (\cf9 self\cf1 ):\line         \cf7\i #returns length\line         \cf3\b\i0 return \cf9\b0 self\cf1 .length\line\line\cf7\i #Objects\line\cf3\b\i0 def \cf1\b0 main():\line     my_dog = Dog(\cf10 breed\cf1 =\cf4\b 'German Shepard'\cf1\b0 ,\cf10 name\cf1 =\cf4\b 'Rose'\cf1\b0 , \cf10 spots\cf1 =\cf3\b False\cf1\b0 , \cf10 length\cf1 =\cf2 200\cf1 )\line     my_dog2 = Dog(\cf10 breed\cf1 =\cf4\b 'Lab'\cf1\b0 ,\cf10 name\cf1 =\cf4\b 'Dofus'\cf1\b0 ,\cf10 spots\cf1 =\cf3\b True\cf1\b0 , \cf10 length\cf1 =\cf2 100\cf1 )\line     my_dog.bark()\line     my_dog.spot()\line     my_dog2.bark()\line     my_dog2.spot()\line     \cf7\i #String returned and then print can be called on that\line     \cf3\i0 print\cf1 (my_dog)\line     \cf3 print\cf1 (my_dog2)\line     \cf7\i #length printed\line     \cf3\i0 print\cf1 (\cf3 len\cf1 (my_dog))\line     \cf3 print\cf1 (\cf3 len\cf1 (my_dog2))\line     \cf7\i #deletes my_dog2 object\line     \cf3\b\i0 del \cf1\b0 my_dog2\line     \cf7\i #print(my_dog2) will cause the program to crash\line\line\cf1\i0 main()\line\fs9\par
+\cf5\fs18 There is a German Shepard named Rose that goes Woof!\par
+Oh and there is no spots\par
+There is a Lab named Dofus that goes Woof!\par
+There are spots\par
+German Shepard, Rose\par
+Lab, Dofus\par
+200\par
+100\par
+\cf0\f0\fs22\par
+\cf3\b\f1\fs18 class \cf1\b0 Animal():\line\f2 #constructor\f1\line     \cf3\b def \cf8\b0 __init__\cf1 (\cf9 self\cf1 ):\line         \cf3 print\cf1 (\cf4\b "Animal created!!!"\cf1\b0 )\line\line     \cf3\b def \cf1\b0 who_am_i(\cf9 self\cf1 ):\line         \cf3 print\cf1 (\cf4\b "I am an animal"\cf1\b0 )\line\line     \cf3\b def \cf1\b0 eat(\cf9 self\cf1 ):\line         \cf3 print\cf1 (\cf4\b "I am eating"\cf1\b0 )\line\line\cf7\i #Derived class\line\cf3\b\i0 class \cf1\b0 Dog(Animal):\line     \cf3\b def \cf8\b0 __init__\cf1 (\cf9 self\cf1 ):\line         Animal.\cf8 __init__\cf1 (\cf9 self\cf1 )\line         \cf3 print\cf1 (\cf4\b "Dog Created"\cf1\b0 )\line\line     \cf7\i #Overridden from Animal class\line     \cf3\b\i0 def \cf1\b0 who_am_i(\cf9 self\cf1 ):\line         \cf3 print\cf1 (\cf4\b 'I am a dog'\cf1\b0 )\line\line\cf3\b def \cf1\b0 main():\line     mydog = Dog()\line     mydog.eat()\line     mydog.who_am_i()\line main()\par
+
+\pard\box\brdrdash\brdrw0 \li720\sa200\sl276\slmult1\cf5\f2\par
+\f1 Animal created!!!\par
+Dog Created\par
+I am eating\par
+I am a dog\par
+\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\li720\sa200\sl276\slmult1\cf3\b import \cf1\b0 math\line\line\cf3\b class \cf1\b0 Line:\line\line     \cf3\b def \cf8\b0 __init__\cf1 (\cf9 self\cf1 ,coor1,coor2):\line         \cf7\i #splitting up the tuples as they come in\line         \cf9\i0 self\cf1 .coor1x = coor1[\cf2 0\cf1 ]\line         \cf9 self\cf1 .coor1y = coor1[\cf2 1\cf1 ]\line\line         \cf9 self\cf1 .coor2x = coor2[\cf2 0\cf1 ]\line         \cf9 self\cf1 .coor2y = coor2[\cf2 1\cf1 ]\line\line     \cf3\b def \cf1\b0 distance(\cf9 self\cf1 ):\line         dist = math.sqrt((\cf9 self\cf1 .coor2x - \cf9 self\cf1 .coor1x)**\cf2 2 \cf1 + (\cf9 self\cf1 .coor2y - \cf9 self\cf1 .coor1y)**\cf2 2\cf1 )\line         \cf3\b return \cf1\b0 dist\line\line     \cf3\b def \cf1\b0 slope(\cf9 self\cf1 ):\line         m = (\cf9 self\cf1 .coor2y - \cf9 self\cf1 .coor1y)/(\cf9 self\cf1 .coor2x - \cf9 self\cf1 .coor1x)\line         \cf3\b return \cf1\b0 m\line\line\cf3\b class \cf1\b0 Cylinder:\line\line     \cf3\b def \cf8\b0 __init__\cf1 (\cf9 self\cf1 , height=\cf2 1\cf1 , radius=\cf2 1\cf1 ):\line         \cf9 self\cf1 .height = height\line         \cf9 self\cf1 .radius = radius\line\line     \cf3\b def \cf1\b0 volume(\cf9 self\cf1 ):\line         vol = math.pi*\cf9 self\cf1 .radius**\cf2 2\cf1 *\cf9 self\cf1 .height\line         \cf3\b return \cf1\b0 vol\line\line     \cf3\b def \cf1\b0 surface_area(\cf9 self\cf1 ):\line         A = (\cf2 2\cf1 *math.pi*\cf9 self\cf1 .radius*\cf9 self\cf1 .height)+(\cf2 2\cf1 *math.pi*\cf9 self\cf1 .radius**\cf2 2\cf1 )\line         \cf3\b return \cf1\b0 A\line\line\cf3\b def \cf1\b0 main():\line     coordinate1 = (\cf2 3\cf1 , \cf2 2\cf1 )\line     coordinate2 = (\cf2 8\cf1 , \cf2 10\cf1 )\line\line     li = Line(coordinate1, coordinate2)\line     \cf3 print\cf1 (li.distance())\line     \cf3 print\cf1 (li.slope())\line\line     c = Cylinder(\cf2 2\cf1 , \cf2 3\cf1 )\line     \cf3 print\cf1 (c.volume())\line     \cf3 print\cf1 (c.surface_area())\line\line\line main()\par
+\cf5 9.433981132056603\par
+1.6\par
+56.548667764616276\par
+94.24777960769379\par
+\cf1\fs9\line\cf3\b\fs18 class \cf1\b0 Bank_acct:\line\line     \cf3\b def \cf8\b0 __init__\cf1 (\cf9 self\cf1 , owner, balance):\line         \cf9 self\cf1 .owner = owner\line         \cf9 self\cf1 .balance = balance\line\line     \cf3\b def \cf1\b0 deposit(\cf9 self\cf1 , amount):\line         \cf9 self\cf1 .balance = \cf9 self\cf1 .balance + amount\line         \cf3 print\cf1 (\cf4\b 'The new balance is'\cf1\b0 , \cf9 self\cf1 .balance)\line\line     \cf3\b def \cf1\b0 withdraw(\cf9 self\cf1 , withdraw):\line         \cf7\i #if balance is not enough\line         \cf3\b\i0 if \cf9\b0 self\cf1 .balance-withdraw < \cf2 0\cf1 :\line             \cf3 print\cf1 (\cf4\b 'Not enough money to complete transaction'\cf1\b0 )\line\line         \cf3\b else\cf1\b0 :\line             \cf9 self\cf1 .balance = \cf9 self\cf1 .balance-withdraw\line             \cf3 print\cf1 (\cf4\b 'The new balance is'\cf1\b0 , \cf9 self\cf1 .balance)\line\line     \cf3\b def \cf8\b0 __str__\cf1 (\cf9 self\cf1 ):\line         \cf3\b return \cf4 f"Owner: \{self.owner\} \cf3\\n\cf4 Balance: \{self.balance\}"\line\line\cf3 def \cf1\b0 main():\line     person = Bank_acct(\cf10 owner\cf1 =\cf4\b 'Joe'\cf1\b0 , \cf10 balance\cf1 =\cf2 500\cf1 )\line     person.deposit(\cf2 500\cf1 )\line     person.withdraw(\cf2 400\cf1 )\line     person.withdraw(\cf2 1000\cf1 )\line     person.withdraw(\cf2 600\cf1 )\line     \cf3 print\cf1 (person)\line\line\line\cf5 main()\par
+The new balance is 1000\par
+The new balance is 600\par
+Not enough money to complete transaction\par
+The new balance is 0\par
+Owner: Joe \par
+Balance: 0\par
+\cf0\b\f0\fs22 Error Handling:\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-360\li1440\sa200\sl276\slmult1\b0\f2\fs18 try:\cf5\f1\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\sa200\sl276\slmult1\cf0\f2\tab\tab\tab #code that should work\cf5\f1\par
+\cf0\f2\tab\tab except TypeError, OSError, ValueError or leave blank for all errors:\par
+\tab\tab\tab #try doesnt work do something else\par
+\tab\tab else or finally:\par
+\tab\tab\tab #if try is successful do this\cf5\f1\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\li720\sa200\sl276\slmult1\par
+\cf3\b class \cf1\b0 Something:\line\line     \cf3\b def \cf8\b0 __init__\cf1 (\cf9 self\cf1 , tupleVar):\line         \cf9 self\cf1 .varX = tupleVar[\cf2 0\cf1 ]\line         \cf9 self\cf1 .varY = tupleVar[\cf2 1\cf1 ]\line\line     \cf3\b def \cf1\b0 addThem(\cf9 self\cf1 ):\par
+\f2\tab #uses this to do what is entended, add numbers together\f1\line         \cf3\b try\cf1\b0 :\line             num = \cf3 int\cf1 (\cf9 self\cf1 .varX)+\cf3 int\cf1 (\cf9 self\cf1 .varY)\line             \cf3 print\cf1 (num)\line             \cf3\b return True\par
+\f2\tab\cf0\b0 #uses this if a string or other data type is used\par
+\tab #uses ValueError for wrong data type\cf3\b\f1\line         except\f2  ValueError\cf1\b0\f1 :\line             \cf3 print\cf1 (\cf9 self\cf1 .varX+\cf9 self\cf1 .varY)\line             \cf3\b return False\line\line     def \cf8\b0 __str__\cf1 (\cf9 self\cf1 ):\par
+\f2\tab #used so the print can be used in main to print the object\f1\line         \cf3\b return \cf4 f"The tuple is (\{self.varX\}, \{self.varY\})"\line\line     \cf3 def \cf8\b0 __len__\cf1 (\cf9 self\cf1 ):\line         \cf3\b pass\line\line def \cf1\b0 main():\line\line     i=\cf2 0\line     \cf3\b while \cf1\b0 i < \cf2 2\cf1 :\line         x = \cf3 input\cf1 (\cf4\b 'What is the first variable?: '\cf1\b0 )\line         y = \cf3 input\cf1 (\cf4\b 'What is the second variable?: '\cf1\b0 )\line         something = Something((x, y))\line         \cf3 print\cf1 (something)\line         ret = something.addThem()\line         \cf3\b if \cf1\b0 ret != \cf3\b True\cf1\b0 :\line             \cf3 print\cf1 (\cf4\b 'Not integers, Stopping and exiting'\cf1\b0 )\line             \cf3 exit\cf1 (\cf2 1\cf1 )\line\line main()\par
+\cf5 What is the first variable?: 2\par
+What is the second variable?: 4\par
+The tuple is (2, 4)\par
+6\par
+What is the first variable?: abc\par
+What is the second variable?: def\par
+The tuple is (abc, def)\par
+abcdef\par
+Not integers, Stopping and exiting\par
+\par
+
+\pard\box\brdrdash\brdrw0 \cbpat11\li720\sa200\sl276\slmult1\cf1 choice = \cf2 0\line\cf3\b while True\cf1\b0 :\line     \cf3\b try\cf1\b0 :\line         choice = \cf3 int\cf1 (\cf3 input\cf1 (\cf4\b 'Pick any open square numbers 1 through 9: '\cf1\b0 ))\line\line     \cf3\b except\cf1\b0 :\line         \cf3 print\cf1 (\cf4\b 'Only numbers are allowed, try again'\cf1\b0 )\line         \cf3\b continue\line     finally\cf1\b0 :\line         \cf3\b return \cf1\b0 choice\par
+\cf5 Pick any open square numbers 1 through 9: dgfd\par
+Only numbers are allowed, try again\par
+\par
+\cf0\b\f0\fs22 Decorators:\par
+\cf3\f1\fs18 def \cf1\b0 hello():\line     \cf3 print\cf1 (\cf4\b 'Hello'\cf1\b0 )\line\line\cf3\b def \cf1\b0 main():\line     greet = hello\f2  #will not complain and essentially points to the function \tab      hello\f1\line     greet()\line\line\line main()\par
+\cf5\f2 Hello\par
+\cf3\b\f1 def \cf1\b0 hello(name):\line     \cf3 print\cf1 (\cf4\b 'Hello'\cf1\b0 )\line\line     \cf3\b def \cf1\b0 greet():\line         \cf3\b return \cf4 'This is inside greet'\line\line     \cf3 def \cf1\b0 welcome():\line         \cf3\b return \cf4 'This is inside welcome'\line\line     \cf3\b0 print\cf1 (\cf4\b 'I am going to return a funct'\cf1\b0 )\line     \cf3\b if \cf1\b0 name == \cf4\b 'Michael'\cf1\b0 :\line         \cf3\b return \cf1\b0 greet\line     \cf3\b else\cf1\b0 :\line         \cf3\b return \cf1\b0 welcome\line\cf3\b def \cf1\b0 main():\line     greet = hello(\cf4\b 'Michael'\cf1\b0 )\line     \cf3 print\cf1 (greet())\par
+\cf5 Hello\par
+I am going to return a funct\par
+This is ins\f2 ide greet\par
+\cf3\b\f1 def \cf1\b0 hello():\line     \cf3\b return \cf4 'Hello'\line\line\cf3 def \cf1\b0 other(other_fun):\line     \cf3 print\cf1 (other_fun)\line     \cf3 print\cf1 (\cf4\b 'How are you?'\cf1\b0 )\line\cf3\b def \cf1\b0 main():\line     other(hello())\line\line main()\par
+\cf5 Hello\par
+How are you?\par
+\cf0\b\f0\fs22 Simple Generator\par
+\cf3\f1\fs18 def \cf1\b0 gen_fib(n):\line     a = \cf2 1\line     \cf1 b = \cf2 1\line     \cf3\b for \cf1\b0 i \cf3\b in \b0 range\cf1 (n):\line         \cf3\b yield \cf1\b0 a\line         a,b = b, a+b\line\cf3\b def \cf1\b0 main():\line     \cf3\b for \cf1\b0 number \cf3\b in \cf1\b0 gen_fib(\cf2 5\cf1 ):\line         \cf3 print\cf1 (number)\line\line main()\par
+\cf5 1\par
+1\par
+2\par
+3\par
+5\par
+\cf0\par
+\f0\fs22\lang9\par
+}
+ 
